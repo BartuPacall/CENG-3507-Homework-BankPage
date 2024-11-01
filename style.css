@@ -1,0 +1,562 @@
+/* Reset default browser styles and set box-sizing, margin, padding, and font */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header styling */
+header {
+  height: 130px;
+  background-image: url(./images/background.jpg);
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+header img {
+  width: 65px;
+  padding-bottom: 5px;
+}
+/* Navigation links in header */
+header nav a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* Main content padding adjustment to account for fixed header */
+main {
+  padding-top: 130px;
+}
+
+/* Flex container for main layout */
+.container {
+  display: flex;
+}
+
+/* Left sidebar styling */
+.left-sidebar {
+  background-image: url(./images/dark-red.jpg);
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  width: auto;
+}
+
+/* Main content styling */
+.main-content {
+  flex: 2;
+  width: auto;
+  text-align: justify;
+  padding: 25px;
+  overflow-y: scroll;
+  max-height: 135vh;
+  background-image: url(./images/wheat.png);
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Content navigation styling */
+main .content-nav {
+  background-color: rgb(47, 47, 102);
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* Content h1 styling */
+.main-content h1 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* Content image styling */
+.main-content img {
+  margin: 15px auto;
+  display: block;
+  width: 500px;
+}
+
+/* Content paragraphs styling */
+.main-content p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Right sidebar background image and layout */
+.right-sidebar {
+  flex: 1;
+  width: auto;
+  background-image: url(./images/dark-red.jpg);
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+/* left sidebar h3 styling */
+.left-sidebar h3 {
+  color: white;
+  padding-bottom: 7px;
+}
+
+/* Container for money-related elements */
+.money-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+/* Money item styling */
+.money {
+  display: flex;
+  justify-content: center;
+  border: 5px skyblue solid;
+  border-radius: 2px;
+  margin: 9px;
+}
+
+/* Money button styling */
+.btn {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 65px 10px 65px;
+}
+/* Money text styling*/
+.money p {
+  padding-bottom: 10px;
+  font-size: large;
+}
+
+/* Money images adjusting the dimensions */
+.money img {
+  width: 50px;
+  padding-bottom: 5px;
+}
+
+/* Account image styling and adjusting the dimensions */
+.account-information img {
+  border: 3px solid skyblue;
+  border-radius: 300px;
+  width: 200px;
+}
+
+/* Account styling */
+.account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Strong text within account information */
+.account-information Strong {
+  font-size: x-large;
+}
+
+/* Account information paragraph styling*/
+.account-information p {
+  font-size: medium;
+}
+
+/* Account information part styling */
+.account-information {
+  border: 8px skyblue solid;
+  background-color: #fcfcfc;
+  border-radius: 50px;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 15px;
+}
+
+/* Account balance container styling */
+.account-balance {
+  border: 8px solid skyblue;
+  background-color: #fcfcfc;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.account-balance img {
+  width: 100px; /* Balance icon size */
+  margin-bottom: 10px;
+}
+
+/* Paragraph styling within account balance */
+.account-balance p {
+  border: 8px solid skyblue;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Previous transactions styling */
+.account-previous-transactions {
+  border: 4px solid skyblue;
+  background-color: #b96565;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 0px;
+}
+
+.account-previous-transactions p {
+  border: 4px solid skyblue;
+  border-radius: 10px;
+  background-color: #fcfcfc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin: 5px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  flex: 1;
+}
+
+.account-balance h1 {
+  margin: 15px;
+}
+
+/* Contact section styling */
+.contact {
+  padding: 3rem;
+  text-align: center;
+  background-color: rgb(46, 1, 1); /* Dark red background */
+  width: auto;
+}
+
+.contact h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 80%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/* Contact form button styling */
+.contact form button {
+  background-color: white;
+  color: darkred;
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+}
+/* Footer styling */
+footer {
+  height: auto;
+  background-image: url(./images/background.jpg);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+/* Footer link styling */
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 51px;
+  width: 100%;
+  padding-top: 9px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  text-align: center;
+}
+
+footer img {
+  width: 35px;
+}
+/* Responsive design for screen width below 1079px */
+@media (max-width: 1079px) {
+  header {
+    height: 100px;
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+
+  header h1 {
+    font-size: 1.2rem;
+  }
+
+  header img {
+    width: 50px;
+  }
+
+  header nav a {
+    font-size: 0.9rem;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  main {
+    padding-top: 100px;
+  }
+
+  .left-sidebar,
+  .right-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+
+  .main-content {
+    padding: 20px;
+    max-height: 100vh;
+  }
+
+  .main-content img {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    width: 100%;
+  }
+
+  .contact form input,
+  .contact form textarea {
+    width: 90%;
+  }
+}
+/* Responsive design for screen width between 480px and 291px */
+
+@media (max-width: 480px) and (min-width: 291px) {
+  header {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+
+  header h1 {
+    font-size: 1rem;
+  }
+
+  header img {
+    width: 40px;
+  }
+
+  header nav a {
+    font-size: 0.8rem;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .left-sidebar,
+  .right-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: none;
+  }
+
+  .account-information {
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .account-balance {
+    padding: 5px;
+  }
+
+  .main-content {
+    padding-top: 80px;
+  }
+
+  .contact h2 {
+    font-size: 1.2rem;
+  }
+
+  .contact form input,
+  .contact form textarea {
+    width: 95%;
+    padding: 0.4rem;
+    font-size: 0.9rem;
+  }
+
+  .contact form button {
+    padding: 0.6rem 1.2rem;
+  }
+
+  footer p {
+    font-size: medium;
+  }
+
+  .footer-links {
+    gap: 20px;
+  }
+
+  footer img {
+    width: 25px;
+  }
+}
+/* Responsive design for screen width under 290px */
+
+@media (max-width: 290px) {
+  .main-content nav {
+    margin-top: 10px;
+  }
+  .money-container {
+    padding: 2px;
+  }
+
+  .money {
+    border-width: 2px;
+    margin: 4px;
+    flex-direction: column;
+  }
+
+  .money img {
+    width: 30px;
+  }
+
+  .money p {
+    font-size: x-small;
+    padding-bottom: 5px;
+  }
+
+  .btn {
+    padding: 5px 20px;
+    font-size: x-small;
+  }
+  .account-information {
+    padding: 20px;
+    margin: 5px;
+    font-size: x-small;
+    border: 1px solid skyblue;
+  }
+
+  .account-information img {
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid skyblue;
+  }
+
+  .account-information strong {
+    font-size: xx-small;
+  }
+
+  .account-information h1 {
+    font-size: xx-small;
+  }
+
+  .account-information p {
+    font-size: xx-small;
+  }
+
+  .account-balance {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 0;
+    font-size: x-small;
+    border: skyblue 4px solid;
+    padding: 2px;
+  }
+
+  .account-balance img {
+    width: 40px;
+    margin-bottom: 2px;
+    border: skyblue 4px solid;
+  }
+
+  .account-balance p {
+    border: skyblue 4px solid;
+    border-radius: 25px;
+    font-size: x-small;
+    padding: 1px;
+  }
+
+  .account-previous-transactions {
+    padding: 5px;
+    font-size: x-small;
+  }
+
+  .account h1 {
+    font-size: small;
+  }
+
+  .account-previous-transactions p {
+    font-size: x-small;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .contact {
+    padding: 1rem;
+  }
+
+  .contact h2 {
+    font-size: small;
+  }
+
+  .contact form input,
+  .contact form textarea {
+    font-size: x-small;
+    padding: 0.2rem;
+  }
+
+  .contact form button {
+    padding: 0.3rem 0.6rem;
+    font-size: x-small;
+  }
+
+  footer p {
+    font-size: small;
+  }
+
+  .footer-links {
+    gap: 10px;
+  }
+
+  footer img {
+    width: 15px;
+  }
+}
