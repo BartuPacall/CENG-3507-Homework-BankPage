@@ -63,10 +63,11 @@ main {
   text-align: justify;
   padding: 25px;
   overflow-y: scroll;
-  max-height: 135vh;
+  max-height: 150vh;
   background-image: url(./images/wheat.png);
   color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 0;
 }
 
 /* Content navigation styling */
