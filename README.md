@@ -9,8 +9,10 @@ Live Link: https://ceng-3507-homework-bank-page-v1o6.vercel.app/
 
 ![image](https://github.com/user-attachments/assets/8051343b-31ee-485b-a8a1-ccbef2d2a91d)
 
-![image](https://github.com/user-attachments/assets/637b63da-d776-405d-b53f-0c60d30691fc)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/637b63da-d776-405d-b53f-0c60d30691fc" width="45%" />
+  <img src="https://github.com/user-attachments/assets/42abba20-92cf-447c-b25c-770a76f43db3" width="45%" />
+</p>
 
-![image](https://github.com/user-attachments/assets/42abba20-92cf-447c-b25c-770a76f43db3)
 
 
