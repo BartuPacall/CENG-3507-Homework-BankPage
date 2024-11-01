@@ -1,8 +1,6 @@
 # CENG-3507-Homework-BankPage
 ## ↓↓↓↓↓ You can visit my Bank Page ↓↓↓↓↓↓
-Live Link: https://ceng-3507-homework-bank-page-v1o6.vercel.app/
-or
-Live Link: https://bartupacall.github.io/CENG-3507-Homework-BankPage/
+Live Link: https://ceng-3507-homework-bank-page-v1o6.vercel.app/ or https://bartupacall.github.io/CENG-3507-Homework-BankPage/
 <p>The bank site I made with HTML and CSS for the Web Development and Programming course</p>
 
 ![image](https://github.com/user-attachments/assets/c3a2c1dc-7e54-43c7-aa97-54e9632f8395)
