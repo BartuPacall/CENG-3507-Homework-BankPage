@@ -63,7 +63,7 @@ main {
   text-align: justify;
   padding: 25px;
   overflow-y: scroll;
-  max-height: 150vh;
+  max-height: 205vh;
   background-image: url(./images/wheat.png);
   color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
